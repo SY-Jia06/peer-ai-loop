@@ -1,0 +1,29 @@
+[ai.gemini]
+enabled = true
+command = "/opt/homebrew/bin/gemini"  # 使用完整路径
+prompt_flag = "-p"
+model = "gemini-3-pro-preview"  # 使用最新的 Gemini 3 Pro
+skip_permissions = "--yolo"  # 跳过权限检查
+
+[ai.claude]
+enabled = true
+command = "/Users/j/.local/bin/claude"  # 使用完整路径
+# Claude Code 命令行工具
+skip_permissions = "--dangerously-skip-permissions"  # 跳过权限检查
+
+[ai.codex]
+enabled = false
+command = "codex"
+exec_args = ["exec"]
+review_args = ["review"]
+model = "gpt-5.2-codex"
+skip_permissions = "--sandbox danger-full-access"  # 跳过权限检查
+# Codex 暂时禁用，API key 需要修复
+
+[execution]
+timeout_seconds = 300
+max_retries = 1
+
+[output]
+default_format = "markdown"
+save_intermediate = false
