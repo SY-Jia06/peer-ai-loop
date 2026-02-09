@@ -163,11 +163,11 @@ AI #2 和 AI #3 并行审查
 聚合审查结果
     ↓
 生成 Markdown 报告
-    - 原始代码
-    - 各 AI 的审查意见
-    - 共识问题
-    - 独特见解
-    - 改进建议
+- 原始代码
+- 各 AI 的审查意见
+- 共识问题
+- 独特见解
+- 改进建议
 ```
 
 ---
@@ -213,7 +213,6 @@ AI #2 和 AI #3 并行审查
 
 ## 🔮 未来计划
 
-- [ ] 支持更多 AI 模型（GPT-4, PaLM, etc.）
 - [ ] Web 界面可视化审查结果
 - [ ] Git 集成 - 自动审查 Pull Request
 - [ ] 审查历史记录和对比
@@ -262,6 +261,7 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 ---
 
 ## 🙏 致谢
+项目的代码100%由AI撰写
 
 感谢以下 AI 助手的支持：
 - **Gemini 3 Pro** - Google DeepMind
@@ -275,7 +275,7 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 有问题或建议？欢迎提 Issue 或通过以下方式联系：
 
 - GitHub Issues: [项目 Issues 页面]
-- Email: your-email@example.com (可选)
+- Email: a168995738@outlook.com (可选)
 
 ---
 
